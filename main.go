@@ -57,5 +57,5 @@ func main() {
 	http.HandleFunc("/", fileHandler)
 	http.HandleFunc("/tick", tickerHandler)
 
-	log.Fatal(http.ListenAndServe("0.0.0.0:9010", nil))
+	log.Fatal(http.ListenAndServe("0.0.0.0:8080", nil))
 }

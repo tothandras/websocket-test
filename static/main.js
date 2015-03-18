@@ -55,7 +55,7 @@
   });
 
   app.factory('Tick', function() {
-    var i = 0;
+    var i;
     return {
       i: i
     };
